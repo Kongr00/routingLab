@@ -7,13 +7,19 @@ const Navbar = () => {
     return (
         <div className={cls.navbar}>
              <div className={cls.navbarItem}>
-                 <CustomNavLink to={"/about"}/>
+                 <CustomNavLink to={"about"}>
+                     About
+                 </CustomNavLink>
              </div>
              <div className={cls.navbarItem}>
-                 <CustomNavLink to={"/shop"}/>
+                 <CustomNavLink to={"shop"}>
+                     Shop
+                 </CustomNavLink>
              </div>
              <div className={cls.navbarItem}>
-                 <CustomNavLink to={"/home"}/>
+                 <CustomNavLink to={"home"}>
+                        Home
+                 </CustomNavLink>
              </div>
         </div>
     );
